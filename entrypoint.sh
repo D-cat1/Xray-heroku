@@ -48,9 +48,9 @@ rm -f Xray-linux-64.zip
 chmod +x ./xray
 ls -al
 
-cd /wwwroot
-tar xvf wwwroot.tar.gz
-rm -rf wwwroot.tar.gz
+cd /fake
+tar xvf web.tar.gz
+rm -rf web.tar.gz
 
 
 sed -e "/^#/d"\
